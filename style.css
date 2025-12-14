@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: white;
+  color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #007bff;
+  color: white;
+}
+
+.center {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.room-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.room-card {
+  background: white;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 280px;
+  text-align: center;
+  padding: 15px;
+}
+
+.room-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form-container {
+  background: white;
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.confirm-box {
+  text-align: center;
+  background: white;
+  padding: 50px;
+  margin: 100px auto;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
